@@ -1,0 +1,10 @@
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"8","action":"release"}
+REQUEST: {"job_id":"8","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"release"}
+REQUEST: {"job_id":"10","action":"complete"}

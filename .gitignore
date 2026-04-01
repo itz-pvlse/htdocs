@@ -1,0 +1,37 @@
+# --- SENSITIVE LOGIC & API KEYS (CRITICAL) ---
+# Ignoring the files with your Groq API key
+includes/ai_carhelp.php
+includes/ai_bot_api.php
+
+# --- DATABASE CONFIGURATIONS ---
+# Common PHP database connection filenames
+db.php
+config.php
+connection.php
+db_connect.php
+database.php
+includes/db.php
+includes/config.php
+includes/connection.php
+includes/car_expert.php
+
+# --- GOOGLE & EXTERNAL API SECRETS ---
+# Ignores all JSON secret files but keeps your library configuration
+*.json
+!composer.json
+token.json
+credentials.json
+client_secret*.json
+
+# --- SYSTEM & ENVIRONMENT ---
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+vendor/
+
+# --- USER CONTENT & LOGS ---
+/uploads/
+/temp/
+*.log

@@ -1,0 +1,24 @@
+# --------------------------------------
+# AutoLog Refined URL Cleanup
+# --------------------------------------
+
+# Default page
+DirectoryIndex index.php
+
+# Enable mod_rewrite
+RewriteEngine On
+RewriteBase /
+
+# 1. PREVENT REDIRECT LOOPS ON LOCALHOST
+# Only force HTTPS if we are NOT on a local development server
+RewriteCond %{REMOTE_ADDR} !^127\.0\.0\.1
+RewriteCond %{REMOTE_ADDR} !^::1
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. DISABLE DIRECTORY BROWSING (Security Best Practice)
+Options -Indexes
+
+# 3. FIX FOR MOBILE VIEW COMMOTION
+# Ensure User-Agent changes don't trigger accidental re-routes
+# (If you had mobile-specific rules here, they should be removed)
