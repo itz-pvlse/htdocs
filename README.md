@@ -1,2 +1,2 @@
 #Autolog
-**Live Site:** [autolog.xo.je](http://autolog.co.ke)
+**Live Site:** [autolog.co.ke](http://autolog.co.ke)
