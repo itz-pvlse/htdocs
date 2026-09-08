@@ -1,6 +1,6 @@
 # AutoLog 
 
-[![Website](https://img.shields.io/badge/Website-autolog.xo.je-blue?style=for-the-badge&logo=googlechrome)](http://autolog.co.ke)
+[![Website](https://img.shields.io/badge/Website-autolog.co.ke-blue?style=for-the-badge&logo=googlechrome)](http://autolog.co.ke)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
